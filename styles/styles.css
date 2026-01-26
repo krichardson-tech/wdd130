@@ -1,0 +1,53 @@
+/* (this is good for temp placement) */
+/* * {
+    border: solid red;
+}    */
+
+
+body {
+    margin: 0;
+    font-size: 24px;
+    background-color: rgb(17, 130, 186);
+}
+header, footer {
+    background-color: rgb(17, 130, 186);
+}
+nav {
+    text-align: center;
+    padding: 40px;
+}
+nav a {
+    padding: 20px;
+    color: black;
+}
+nav a:hover {
+    color: rgb(17, 130, 186);
+    text-decoration: none; 
+}
+#content {
+    max-width: 900px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 40px;
+}
+img {
+    width: 50%;
+    text-align: center;
+    border-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#title {
+    text-align: center;
+    font-size: 4em; /*em goes off the body pixels*/
+}
+.shadow {
+    background-color: lightgrey;
+}
+p {
+    
+    padding: 40px; 
+}
+footer {
+    text-align: center;
+}
