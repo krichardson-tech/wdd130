@@ -41,6 +41,18 @@ img {
     text-align: center;
     font-size: 4em; /*em goes off the body pixels*/
 }
+#comp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+#html {
+    grid-column: 1/3;
+}
+#css {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 .shadow {
     background-color: lightgrey;
 }
