@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+        <table>
+          <tr> <!--heading-->
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr> <!--row1-->
+            <td>Karl D. Hirst</td>
+            <td>Repentance at Its Fullest</td>
+            <td>Rexburg, ID</td>
+            <td>2025</td>
+          </tr>
+          <tr> <!--row2-->
+            <td>Jennie Pardoe</td>
+            <td>Righteous Failures</td>
+            <td>Rexburg, ID</td>
+            <td>2024</td>
+          </tr>
+          <tr> <!--row3-->
+            <td>Heather Carter</td>
+            <td>Strong at the Broken Places</td>
+            <td>Rexburg, ID</td>
+            <td>2023</td>
+          </tr> 
+      </table>
+      <!--seperating table from form-->
+      <h2>______________________________________________________________</h2>
+      <br><br>
+        <!-- form -->
+      <form>
+        <!--speaker-->
+        <label for="speaker">Speaker:</label><br>
+        <input type="text" id="speaker" name="speaker" value=""><br>
+        <!--title-->
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" value=""><br>
+        <!--location-->
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" value=""><br>
+        <!--year-->
+        <label for="year">Year:</label><br>
+        <input type="text" id="year" name="year" value=""><br><br>
+        <!--submit-->
+        <input type="submit" value="Submit">
+      </form> <br> <br>
+      <!--link to other devotionals-->
+      <a href="https://www.byui.edu/speeches/weekly-devotionals">Other Devotionals Here</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
