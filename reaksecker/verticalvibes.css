@@ -1,3 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap'); /*make sure to BOLD it*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); 
 
+/* colors
+green - #2E4D31
+grey - #7D7D7D
+orange - #F18F01
+blue - #4AA3DF */
+
+/* ~~~~~~~~~~~~~~~~~~~~ content/body/main ~~~~~~~~~~~~~~~~~~~~ */
+body {
+    background-color: #2E4D31;
+    color: white;
+    text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ nav ~~~~~~~~~~~~~~~~~~~~ */
+header {
+    font-family: "Lora";
+    color: #2E4D31;
+
+    margin-bottom: 2%;
+}
+
+nav {
+    display: flex;
+    gap: 3%;
+}
+
+nav a {
+    color: #F18F01;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4AA3DF;
+}
+
+#links {
+    text-align: right;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ grids ~~~~~~~~~~~~~~~~~~~~ */
+#home_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    gap: 5%;
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    gap: 5%;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    gap: 5%;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    gap: 5%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ headings ~~~~~~~~~~~~~~~~~~~~ */
+h2 {
+    color: #F18F01;
+}
+
+h3 {
+    color: #4AA3DF;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ images ~~~~~~~~~~~~~~~~~~~~ */
+#logo {
+    width: 5%;
+}
+
+#hero {
+    width: 50%;
+}
+
+#smith1 {
+    width: 50%;
+}
+
+#ww1 {
+    width: 50%;
+}
+
+#stone {
+    width: 50%;
+}
+
+#eagle {
+    width: 50%;
+}
+
+#lookpoint {
+    width: 50%;
+}
+
+#terra {
+    width: 50%;
+}
+
+#anchor {
+    width: 50%;
+}
+
+#extra {
+    width: 50%;
+}
+
+#stick {
+    width: 50%;
+}
+
+#wolfie {
+    width: 50%;
+}
+
+#hairbender {
+    width: 50%;
+}
+
+#dark {
+    width: 50%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~ */
+footer {
+    text-align: right;
+    margin: 1%;
+    padding-top: 1%;
+    color: #7D7D7D;
+}
