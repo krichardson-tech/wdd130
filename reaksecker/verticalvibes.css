@@ -134,6 +134,26 @@ h3 {
     font-weight: bold;
 }
 
+#CE {
+    font-size: 30px;
+}
+
+#toprock {
+    font-size: 30px;
+}
+
+#featured {
+    font-size: 30px;
+}
+
+#hype {
+    font-size: 20px;
+}
+
+#peak {
+    font-size: 20px;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~ section ~~~~~~~~~~~~~~~~~~~~ */
 #two {
     border: #7D7D7D solid 5px;
@@ -157,7 +177,12 @@ h3 {
     margin: 3%;
 }
 
-#combinedbox {
+#box2 {
+    border: #7D7D7D solid 5px;
+    border-radius: 20px;
+}
+
+#box3 {
     border: #7D7D7D solid 5px;
     border-radius: 20px;
 }
@@ -237,6 +262,7 @@ h3 {
 #visit {
     width: 80vw;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 #ensnare {
